@@ -24,9 +24,21 @@ function neMoFunctionPerformance(array) {
   }
   let t1 = performance.now();
 
-  console.log('Time it took to find nemo = ', (t1 - t0) + ' milliseconds');
+  console.log('Time it took to find nemo =>   ', (t1 - t0) + ' milliseconds');
 }
 
 // Testing the solution
 
 neMoFunctionPerformance(['a', 'second string', 'nemo']);
+
+/**
+ * Finding the Big O of the above operations:
+ * 
+ * Big O simply means the operation per input
+ * 
+ * The above function executes O(n) => Linear Time
+ * Because the operation involves a loop which 
+ * performs one operation per element and increases
+ * with increase in input
+ */
+
