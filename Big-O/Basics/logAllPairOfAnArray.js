@@ -49,3 +49,35 @@ logAllPairsOfAnArray(["index0", "index1", "index2", "d", "e", "f"]);
  * 
  * 4. Remove the non-dominants
  */
+
+/**
+ * The 3 Pillars of Programming
+ * 
+ * 1.Readable
+ * 2.Speed: Time Complexity
+ * 3.Memory: Space Complexity
+ * 
+ * 2 ways a program remember things
+ * 
+ * 1. Heap: Where it keeps track of 
+ * values assigned to variables
+ * 
+ * 2. Stack: Where function calls are tracked
+ */
+
+
+/**
+ * What can cause time complexity in a function?
+ * 1.Operation(+, -, *, /)
+ * 2.Comparisons(===, ==, >, <)
+ * 3.Looping(for loop, while loop)
+ * 4.Outside function calls
+ */
+
+/**
+ * What can cause space complexity in a function?
+ * 1.Variables
+ * 2.Data structures
+ * 3.Allocations
+ * 4.Function calls
+ */
