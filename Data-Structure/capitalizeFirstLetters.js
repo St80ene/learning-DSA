@@ -1,4 +1,4 @@
-let string = 'good morning, my beautiful people. It\'s such a beautiful day';
+let string = 'good morning, my beautiful people. It\'s such an awesome day';
 
 const capitalize = (string) => {
   let arrayOfSplitString = string.split(' ');
@@ -13,3 +13,5 @@ const capitalize = (string) => {
 };
 
 console.log(capitalize(string));
+
+
