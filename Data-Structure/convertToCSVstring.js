@@ -28,6 +28,12 @@ console.log(
   ])
 );
 
+const itemsArray = [
+  { itemId: 1, itemRef: 'Item 001' },
+  { itemId: 2, itemRef: 'Item 002' },
+  { itemId: 3, itemRef: 'Item 003' },
+];
+
 const csvString = [
   ['Item ID', 'Item Reference'],
   ...itemsArray.map((item) => [item.itemId, item.itemRef]),
