@@ -21,6 +21,7 @@
 // };
 
 function isValidPhoneNumber(phoneNumber) {
+  console.log('here');
   // Regex to check valid
   // International Phone Numbers
   const phoneNumberRegex = /^[0-9]{1,4}[-\s]?[0-9]{6,12}$/;
