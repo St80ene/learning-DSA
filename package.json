@@ -1,0 +1,14 @@
+{
+  "name": "learning-DSA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:St80ene/learning-DSA.git",
+  "author": "St80ene <etienejames5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
